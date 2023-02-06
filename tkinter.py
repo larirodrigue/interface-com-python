@@ -17,7 +17,7 @@ pergunta = tk.Label(root, text='Você é corno?')
 pergunta.pack(anchor='n', pady=20)
 
 nao = tk.Button(root, text='Não')
-nao.place(x='99', y='80')
+nao.place(x='98', y='80')
 nao.bind('<Enter>', hover)
 
 sim = tk.Button(root, text='Sim', command=messages)
